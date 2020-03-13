@@ -1,7 +1,7 @@
 import React from "react"
 import styles from "./about-css-modules.module.css"
 import Container from "../components/container"
-import Navigation from "../components/navigation"
+import Layout from "../components/layout"
 
 console.log(styles)
 
@@ -16,9 +16,7 @@ const User = props => (
 )
 
 export default () => (
-  <>
-    <Navigation />
-
+  <Layout>
     <Container>
       <h1>About CSS Modules</h1>
       <p>CSS Modules are cool</p>
@@ -33,5 +31,5 @@ export default () => (
         excerpt="I'm Bob Smith, a vertically aligned type of guy. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
       />
     </Container>
-  </>
+  </Layout>
 )

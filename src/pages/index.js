@@ -1,12 +1,14 @@
 import React from "react"
 import Header from "../components/header"
-import Navigation from "../components/navigation"
+import Layout from "../components/layout"
 
 export default () => (
-  <div style={{ color: `purple` }}>
-    <Navigation />
+  <Layout>
     <Header headerText="Hello Gatsby!" />
-    <p>What a world.</p>
+    <p>
+      What do I like to do? Lots of course but definitely enjoy building
+      websites.
+    </p>
     <img src="https://source.unsplash.com/random/150x150" alt="" />
-  </div>
+  </Layout>
 )

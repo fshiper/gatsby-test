@@ -1,12 +1,13 @@
 import React from "react"
-import Header from "../components/header"
-import Navigation from "../components/navigation"
+import Layout from "../components/layout"
 
 export default () => (
-  <div style={{ color: `teal` }}>
-    <Navigation />
-
-    <Header headerText="About Gatsby" />
-    <p>Such wow. Very React.</p>
-  </div>
+  <Layout>
+    <div>
+      <h1>About me</h1>
+      <p>
+        I’m good enough, I’m smart enough, and gosh darn it, people like me!
+      </p>
+    </div>
+  </Layout>
 )
